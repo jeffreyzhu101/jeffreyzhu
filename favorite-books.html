@@ -23,8 +23,9 @@
         }
         h1 {
             font-size: 2.5em;
-            margin: 1.8em 0 0.5em;
+            margin: 1.3em 0 0.2em;
             color: #4A4A4A;
+            line-height: 1.1em;
         }
         .disclaimer {
             font-size: 1em;
@@ -56,6 +57,7 @@
         li {
             margin: 0.45em 0; /* Spacing between list items */
             counter-increment: css-counter 1;
+            white-space: nowrap;
         }
         li:before {
           content: counter(css-counter) ". "; /* Apply counter before children's content. */
