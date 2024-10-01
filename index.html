@@ -1,24 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Jeffrey Zhu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Minimal Website</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            line-height: 1.6; /* Improved line spacing */
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            color: #4A4A4A;
+        }
+        p {
+            font-size: 1.15em;
+            max-width: 600px;
+            margin-bottom: 0.1em;
+            padding: 0 1em; /* Side padding for better spacing */
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 1.5em;
+            margin-bottom: 0.1em;
+            color: #888; /* Subdued color */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin: 0.3em 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        footer {
+            margin-top: 2em;
+            font-size: 0.8em;
+            color: #777;
+        }
+        .chill-link {
+            text-decoration: none;
+            color: #555; /* Less attention-grabbing gray */
+            font-weight: normal; /* Less emphasis */
+            transition: color 0.3s;
+        }
+        .chill-link:hover {
+            color: #333; /* Darker on hover */
+        }
+    </style>
 </head>
 <body>
-  <div>
-    My name is Jeff.
-    I went to Concord-Carlisle High School, and then Brown University, and now I live in Manhattan.
-    <br><br>
-    My parents spend half their time in Concord, and the other half in Boston.
-    I usually just follow them around on the holidays.
-    I also have a sister in medical school - she's three years older, and married.
-    <br><br>
-    My two main hobbies growing up were cello and soccer. I still do both of these.
-    <br><br>
-    I'll add more things here as they happen.
-    <br><br><br>
-    Email: jeffreyzhu101@gmail.com
-    <br><br>
-    Last Updated: 05/29/2023
-  </div>
+    <h1>About Me</h1>
+    <p>My name is Jeff. I went to <a href="https://en.wikipedia.org/wiki/Concord-Carlisle_High_School" class="chill-link">Concord-Carlisle High School</a>, and then <a href="https://en.wikipedia.org/wiki/Brown_University" class="chill-link">Brown University</a>, and now I live in <a href="https://en.wikipedia.org/wiki/Manhattan" class="chill-link">Manhattan</a>.</p>
+
+    <p>My parents recently moved to <a href="https://en.wikipedia.org/wiki/Northborough,_Massachusetts" class="chill-link">Northborough</a>, but they also spend time in <a href="https://en.wikipedia.org/wiki/Boston" class="chill-link">Boston</a> some weekends. I usually follow them around on the holidays. I also have a sister in medical residency - she's three years older, and married.</p>
+
+    <p>My two main hobbies growing up were cello and soccer. I still do both of these casually.</p>
+
+    <h2>More About Me</h2>
+    <ul>
+        <li><a href="new-weatherman.html">New Weatherman</a></li>
+        <li><a href="favorite-books.html">Favorite Books List</a></li>
+    </ul>
+    
+    <footer>
+        Last Updated - September 30, 2024
+    </footer>
 </body>
 </html>
